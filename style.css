@@ -10,7 +10,7 @@
 	margin: 0 auto;
 }
 section{
-	background-color: : #F9F6F1;
+	background-color: #F9F6F1;
 }
 .menu{
 	height: 150px;
@@ -40,11 +40,6 @@ div [class*="for"]{
 	top: 40px;
 	left: 500px;
 }
-
-
-
-
-
 .sales{
 	display: flex;
 	justify-content:space-between;
@@ -83,7 +78,6 @@ div [class*="for"]{
 }	
 .selection__slide{
 	background: url('images/selection-off-icon.png');
-
 }
 .selection__slide-on{
 	background: url('images/selection-on-icon.png');
@@ -235,12 +229,12 @@ footer{
 	color: #FFF;
 	width: 200px;
 }
-.q{
-	color: #D7B399;
+.footer > div > div > a{
+	color:  #CBCFD4;;
 	line-height: 2em;
 }
-.q:hover{
-	color: #D7B399;
+.footer > div > div > a:hover{
+	color:  #CBCFD4;;
 }
 .footer__title{
 	padding-bottom: 10px;
@@ -252,15 +246,14 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	color: #212121;
-	height: 50px;
+	height: 70px;
 }
 .white-field__line{
 	padding-top: 23px;
 }
-
-
-
-
+.footer > div > div > img{
+	margin-right: 10px;
+}
 ul {
     display: block;
     margin: 0;
@@ -307,4 +300,33 @@ ul.submenu > li > a:hover {
 }
 ul.menu > li:hover > ul.submenu {
     display: block;
-{
+}
+.ups{
+	background-color: #D7B399;
+}
+.snew-models-description{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.snew-models__image{
+	padding-top: 50px;
+}
+.snew-models__dress{
+	width: 255px;
+	height: 300px;
+	position: relative;
+}
+.snew-models__dress:before{
+	border: 5px solid #D7B399;
+	border-bottom: none;
+	border-right: none;
+	content: '';
+	height: 40px;
+	left: -7px;
+	position: absolute;
+	top: -7px;
+	width: 40px;
+}
