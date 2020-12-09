@@ -10,7 +10,7 @@
 	margin: 0 auto;
 }
 section{
-	background-color: #F9F6F1;
+	background-color: : #F9F6F1;
 }
 .menu{
 	height: 150px;
@@ -123,7 +123,7 @@ div [class*="for"]{
 }
 .collection__woman-layout{
 	display: flex;
-	width: 75%;
+	width: 70%;
 	justify-content: space-between;
 	padding-top: 30px;
 }
@@ -170,17 +170,51 @@ div [class*="for"]{
 	padding-bottom: 100px;
 	text-align: center;
 }
+.new-models__frame-top{
+	display: flex;
+	justify-content: space-between;
+	}
+.new-models__frame-top1{
+	width: 25px;
+	height: 25px;
+	border-top: 3px solid #D7B399;
+	border-left: 3px solid #D7B399;
+}
+.new-models__frame-top2{
+	width: 25px;
+	height: 25px;
+	border-top: 3px solid #D7B399;
+	border-right: 3px solid #D7B399;
+}	
+.new-models__image{
+	padding-left: 30px;
+}
 .new-models__text{
 	font-size: 14px;
 	font-weight: 600;
 	text-align: center;
-
 }
 .new-models__price{
 	font-weight: bold;
 	font-size: 18px;
 	color: #D7B399;
 	text-align: center;
+}
+.new-models__frame-bottom{
+	display: flex;
+	justify-content: space-between;
+}
+.new-models__frame-bottom1{
+	width: 25px;
+	height: 25px;
+	border-bottom: 3px solid #D7B399;
+	border-left: 3px solid #D7B399;
+}
+.new-models__frame-bottom2{
+	width: 25px;
+	height: 25px;
+	border-bottom: 3px solid #D7B399;
+	border-right: 3px solid #D7B399;
 }
 .press{
 	margin-top: 50px;
@@ -246,7 +280,7 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	color: #212121;
-	height: 70px;
+	height: 60px;
 }
 .white-field__line{
 	padding-top: 23px;
@@ -302,31 +336,6 @@ ul.menu > li:hover > ul.submenu {
     display: block;
 }
 .ups{
-	background-color: #D7B399;
-}
-.snew-models-description{
-	width: 90%;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	padding-top: 30px;
-}
-.snew-models__image{
-	padding-top: 50px;
-}
-.snew-models__dress{
-	width: 255px;
-	height: 300px;
-	position: relative;
-}
-.snew-models__dress:before{
-	border: 5px solid #D7B399;
-	border-bottom: none;
-	border-right: none;
-	content: '';
-	height: 40px;
-	left: -7px;
-	position: absolute;
-	top: -7px;
-	width: 40px;
+	background-color: #D7B399(!important);
+	border: none;
 }
